@@ -1,0 +1,361 @@
+html {
+  max-width: 750px !important;
+  min-width: 320px !important;
+  font-size: 42.66666667px;
+  margin: auto !important;
+}
+#ThemeOne {
+  height: auto;
+  display: flex;
+  background-color: #FFFFFF;
+}
+#ThemeOne .successColor {
+  background-color: #1A8CFF !important;
+}
+#ThemeOne .mobile {
+  width: inherit;
+  height: inherit;
+  padding: 0;
+  margin-top: 0;
+}
+#ThemeOne .zwsoft-login {
+  width: inherit;
+  height: inherit;
+  margin: auto;
+  padding: 0;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box {
+  width: inherit;
+  height: inherit;
+  display: block;
+  overflow: hidden;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .top {
+  width: inherit;
+  min-height: 5.4rem;
+  position: relative;
+  display: block;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .top .customize-bg {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: #6a7bff;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .top .logo-title {
+  width: 100%;
+  height: calc(100% - 1rem);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .top .logo-title img {
+  width: auto;
+  min-width: 1.3rem;
+  height: 1.3rem;
+  display: block;
+  margin: auto auto 0.4rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .top .logo-title span {
+  display: block;
+  font-size: 0.4rem;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto auto;
+  color: #ffffff;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .top .logo-title h6 {
+  text-align: center;
+  margin: 0 auto auto;
+  font-size: 0.32rem;
+  color: #FFFFFF;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .top .logo-title .title {
+  width: auto;
+  height: 0.44rem;
+  background-color: transparent;
+  background-image: none;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .top .logo-title .userImage {
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: none;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right {
+  width: 92%;
+  margin: -1rem auto 0;
+  border-radius: 0.2rem;
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .page-header {
+  height: auto;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .page-header h1 {
+  margin: auto;
+  font-size: 0.44rem;
+  color: #1A8CFF;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .page-header img {
+  display: none;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row {
+  padding: 0 0.2rem;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .form-group label {
+  display: none;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .form-group input {
+  background-color: #f6faff;
+  border-color: transparent;
+  box-shadow: none;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .form-group input:focus {
+  border-color: #1A8CFF;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .form-group .btn-primary {
+  background: linear-gradient(-90deg, #198CFF 0%, #69C0FF 100%);
+  border: none;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .clickArea {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .page-header-psw {
+  margin-top: 0;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .page-header-psw h1 {
+  margin-bottom: 0;
+  color: #1A8CFF;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .page-header-psw h6,
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .page-header-psw img {
+  display: none;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .page-header-psw button {
+  display: none;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .login-remember {
+  margin-top: 5px;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .login-remember label {
+  display: flex;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .login-remember button {
+  color: #1A8CFF;
+}
+#ThemeOne .zwsoft-login .zwsoft-login-box .right .row .col-sm-12 .panel .panel-body .pswclick {
+  margin-top: 10px;
+}
+#ThemeOne .zwsoft-register {
+  width: inherit;
+  height: inherit;
+  margin: auto;
+  padding: 0;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box {
+  width: inherit;
+  height: inherit;
+  display: block;
+  overflow: hidden;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .top {
+  width: inherit;
+  height: 5.4rem;
+  position: relative;
+  display: block;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .top .customize-bg {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: #6a7bff;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .top .logo-title {
+  width: 100%;
+  height: calc(100% - 1rem);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .top .logo-title img {
+  width: auto;
+  min-width: 1.3rem;
+  height: 1.3rem;
+  display: block;
+  margin: auto auto 0.4rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .top .logo-title span {
+  display: block;
+  font-size: 0.4rem;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto auto;
+  color: #ffffff;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .top .logo-title .title {
+  width: auto;
+  height: 0.44rem;
+  background-color: transparent;
+  background-image: none;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .top .logo-title .subtitle {
+  display: block;
+  text-align: center;
+  margin: 0 auto auto;
+  color: #FFFFFF;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right {
+  width: 92%;
+  margin: -1rem auto 0;
+  border-radius: 0.2rem;
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .page-header {
+  height: auto;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .page-header h1 {
+  margin: auto;
+  font-size: 0.44rem;
+  color: #1A8CFF;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .page-header img {
+  display: none;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row {
+  padding: 0 0.2rem;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .tabArea {
+  margin-bottom: 0.3rem;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .subtitle {
+  display: none;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .pswAlt {
+  margin-bottom: 45px !important;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .form-group input {
+  background-color: #f6faff;
+  box-shadow: none;
+  border-color: transparent;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .form-group input:focus {
+  border-color: #1A8CFF;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .TMMV label {
+  color: #1A8CFF;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .yzm button {
+  color: #1A8CFF;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .clickArea .btn {
+  background: linear-gradient(-90deg, #198CFF 0%, #69C0FF 100%);
+  border: none;
+}
+#ThemeOne .zwsoft-register .zwsoft-register-box .right .row .col-sm-12 .login-remember a {
+  color: #1A8CFF;
+}
+#ThemeOne .zwsoft-resetpassword {
+  width: inherit;
+  height: inherit;
+  padding: 0;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box {
+  width: inherit;
+  height: inherit;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right {
+  width: inherit;
+  height: inherit;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .page-header {
+  height: 0.8rem;
+  background: linear-gradient(-90deg, #198CFF 0%, #69C0FF 100%);
+  margin-bottom: 0.4rem;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .page-header h1 {
+  color: #FFFFFF;
+  font-size: 0.4rem;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .subtitle {
+  display: none;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .mobile-une {
+  display: block;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .text-danger-1 {
+  display: block;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .text-danger-2 {
+  display: none;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .clickArea {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .clickArea button {
+  height: inherit;
+  border-radius: 0;
+  border: none !important;
+  background: linear-gradient(-90deg, #198CFF 0%, #69C0FF 100%);
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .newPswInp {
+  margin-bottom: 0.1rem;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .form-group input {
+  background-color: #f6faff;
+  box-shadow: none;
+  border-color: transparent;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .form-group input:focus {
+  border-color: #1A8CFF;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .form-group input[disabled] {
+  background-color: #dadada;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .TMMV label {
+  color: #1A8CFF;
+}
+#ThemeOne .zwsoft-resetpassword .zwsoft-resetpassword-box .right .row .col-sm-12 .yzm button {
+  color: #1A8CFF;
+}
+#ThemeOne .text-danger {
+  height: 0.32rem;
+  line-height: 0.32rem;
+  font-size: 0.28rem;
+  display: block;
+  margin-top: 0.04rem;
+  margin-bottom: 0.04rem;
+}

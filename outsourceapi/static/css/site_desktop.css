@@ -1,0 +1,657 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  max-height: 540px;
+  min-width: 457px;
+  min-height: 468px;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px #eeeeee;
+}
+.navbar {
+  position: absolute;
+}
+.container {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.container .UserCenter {
+  width: 100%;
+  display: flex;
+}
+.container .UserCenter .left,
+.container .UserCenter .right {
+  margin: 1rem auto 0;
+}
+.container .UserCenter .left {
+  width: 25%;
+}
+.container .UserCenter .left img {
+  width: 60%;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.container .UserCenter .right {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.container .UserCenter .right .fullName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.container .EditName .editArea {
+  width: 80%;
+  margin: 0.4rem auto;
+  display: flex;
+}
+.container .EditName .editArea span {
+  margin: auto 0.2rem;
+  margin-left: 0;
+  flex-shrink: 0;
+}
+.container .EditName .editArea input {
+  width: 100%;
+  height: 0.72rem;
+  padding: 0px 0.3rem;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.container .EditName .editArea input:focus {
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.container .EditName .editArea .setLangSelect {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0px auto;
+  position: relative;
+}
+.container .EditName .editArea .setLangSelect .show {
+  width: 100%;
+  height: inherit;
+  line-height: inherit;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 0 0.3rem;
+  position: relative;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.container .EditName .editArea .setLangSelect .show:focus {
+  outline: none;
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.container .EditName .editArea .setLangSelect .show i {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0.3rem;
+  margin: auto;
+  background-image: url("../img/icon/icon-drop-down.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.container .EditName .editArea .setLangSelect .list {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+.container .EditName .editArea .setLangSelect .list li {
+  width: 100%;
+  padding: 0 0.3rem;
+  cursor: pointer;
+}
+.container .EditName .editArea .setLangSelect .list li + li {
+  border-top: 1px solid #CCCCCC;
+}
+.container .EditName .editArea .setLangSelect .list li:hover {
+  background-color: #66afe9;
+  color: #FFFFFF;
+}
+.container .EditName .en-US span {
+  width: 65px;
+}
+.container .EditName,
+.container .Verify,
+.container .EditSecurity {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .EditName h4,
+.container .Verify h4,
+.container .EditSecurity h4 {
+  margin: 0.6rem 0.4rem;
+}
+.container .EditName .text-danger,
+.container .Verify .text-danger,
+.container .EditSecurity .text-danger {
+  width: 80%;
+  height: 16px;
+  display: block;
+  font-size: 14px;
+  color: #a94442;
+  margin: 0 auto 0.1rem;
+}
+.container .UserCenter .btnArea,
+.container .EditName .btnArea,
+.container .Verify .btnArea,
+.container .EditSecurity .btnArea {
+  display: flex;
+  margin: 0.4rem 0 0.2rem;
+}
+.container .UserCenter .btnArea button,
+.container .EditName .btnArea button,
+.container .Verify .btnArea button,
+.container .EditSecurity .btnArea button {
+  width: 3.2rem;
+  height: 36px;
+  margin: auto 0.12rem;
+  background-color: #337AB7;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+.container .UserCenter .btnArea button:disabled,
+.container .EditName .btnArea button:disabled,
+.container .Verify .btnArea button:disabled,
+.container .EditSecurity .btnArea button:disabled {
+  background-color: #b7b7b7;
+}
+.container .UserCenter .btnArea + .btnArea,
+.container .EditName .btnArea + .btnArea,
+.container .Verify .btnArea + .btnArea,
+.container .EditSecurity .btnArea + .btnArea {
+  margin-top: 0;
+}
+.container .UserCenter .T-F-btn button,
+.container .EditName .T-F-btn button,
+.container .Verify .T-F-btn button,
+.container .EditSecurity .T-F-btn button {
+  margin: auto;
+  margin-right: 1.2rem;
+}
+.container .UserCenter .T-F-btn button + button,
+.container .EditName .T-F-btn button + button,
+.container .Verify .T-F-btn button + button,
+.container .EditSecurity .T-F-btn button + button {
+  margin-left: 0;
+  margin-right: auto;
+  color: #337AB7;
+  background-color: #FFFFFF;
+  border: 1px solid #337AB7;
+}
+.container .UserCenter .F-btn,
+.container .EditName .F-btn,
+.container .Verify .F-btn,
+.container .EditSecurity .F-btn {
+  margin: auto 0 1rem;
+}
+.container .UserCenter .F-btn button,
+.container .EditName .F-btn button,
+.container .Verify .F-btn button,
+.container .EditSecurity .F-btn button {
+  margin: auto;
+  color: #337AB7;
+  background-color: #FFFFFF;
+  border: 1px solid #337AB7;
+}
+.container .Verify input:disabled,
+.container .EditSecurity input:disabled {
+  cursor: no-drop !important;
+  background-color: #eaeaea !important;
+  border-color: #eaeaea !important;
+}
+.container .Verify .Account,
+.container .EditSecurity .Account {
+  width: 80%;
+  display: flex;
+  margin: 0.4rem auto;
+  font-size: 18px;
+}
+.container .Verify .Account span,
+.container .EditSecurity .Account span {
+  margin: auto;
+  margin-left: 0;
+}
+.container .Verify .Account button,
+.container .EditSecurity .Account button {
+  border: none;
+  background-color: transparent;
+  margin: auto;
+  margin-right: 0;
+  color: #337AB7;
+  font-size: 14px;
+}
+.container .Verify .Title,
+.container .EditSecurity .Title {
+  width: 80%;
+  font-size: 14px;
+  margin: 0.2rem auto;
+}
+.container .Verify .TMMVCode,
+.container .EditSecurity .TMMVCode {
+  width: 80%;
+  height: 44px;
+  margin: 0.1rem auto 0.2rem;
+  display: flex;
+}
+.container .Verify .TMMVCode input,
+.container .EditSecurity .TMMVCode input {
+  width: 40%;
+  margin-right: 10px;
+  flex-grow: 1;
+  height: inherit;
+  display: block;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.container .Verify .TMMVCode input:focus,
+.container .EditSecurity .TMMVCode input:focus {
+  outline: none;
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.container .Verify .TMMVCode button,
+.container .EditSecurity .TMMVCode button {
+  width: auto;
+  height: 90%;
+  border: none;
+  overflow: hidden;
+  margin: auto 0;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.container .Verify .TMMVCode button img,
+.container .EditSecurity .TMMVCode button img {
+  width: 118px;
+  height: 40px;
+  display: block;
+}
+.container .Verify .TMMVCode label,
+.container .EditSecurity .TMMVCode label {
+  font-size: 14px;
+  color: #22669f;
+  font-weight: 400;
+  margin: auto 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.container .Verify .TMMVCode i,
+.container .EditSecurity .TMMVCode i {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-left: 10px;
+  position: static;
+  flex-shrink: 0;
+  display: none;
+}
+.container .Verify .TMMVCode i svg,
+.container .EditSecurity .TMMVCode i svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container .Verify .TMMVCode .error,
+.container .EditSecurity .TMMVCode .error {
+  fill: #a94442;
+  display: block;
+}
+.container .Verify .TMMVCode .success,
+.container .EditSecurity .TMMVCode .success {
+  fill: #337AB7;
+  display: block;
+}
+.container .Verify .Code,
+.container .EditSecurity .Code {
+  width: 80%;
+  margin: 0 auto 0.1rem;
+  height: 44px;
+  position: relative;
+}
+.container .Verify .Code input,
+.container .EditSecurity .Code input {
+  width: 100%;
+  margin-right: 10px;
+  flex-grow: 1;
+  height: inherit;
+  display: block;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.container .Verify .Code input:focus,
+.container .EditSecurity .Code input:focus {
+  outline: none;
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.container .Verify .Code button,
+.container .EditSecurity .Code button {
+  width: auto;
+  height: 14px;
+  line-height: 1;
+  position: absolute;
+  margin: auto 15px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  color: #337AB7;
+  border-radius: 0;
+  border: none;
+}
+.container .SetLang form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .SetLang .setLangSelect {
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  margin: 60px auto 80px;
+  position: relative;
+}
+.container .SetLang .setLangSelect .show {
+  width: 100%;
+  height: inherit;
+  line-height: inherit;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 0 0.3rem;
+  position: relative;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.container .SetLang .setLangSelect .show:focus {
+  outline: none;
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.container .SetLang .setLangSelect .show i {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0.3rem;
+  margin: auto;
+  background-image: url("../img/icon/icon-drop-down.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.container .SetLang .setLangSelect .list {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+.container .SetLang .setLangSelect .list li {
+  width: 100%;
+  padding: 0 0.3rem;
+  cursor: pointer;
+}
+.container .SetLang .setLangSelect .list li + li {
+  border-top: 1px solid #CCCCCC;
+}
+.container .SetLang .setLangSelect .list li:hover {
+  background-color: #66afe9;
+  color: #FFFFFF;
+}
+.container .EditSecurity form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .EditSecurity .editAccount {
+  width: 80%;
+  margin: 0.1rem auto;
+}
+.container .EditSecurity .editAccount h6 {
+  font-size: 14px;
+}
+.container .EditSecurity .editAccount input {
+  width: 100%;
+  height: 40px;
+  display: block;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.container .EditSecurity .editAccount input:focus {
+  outline: none;
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.container .EditSecurity .securitylist {
+  width: 100%;
+  display: flex;
+  padding: 8px 64px;
+  border-bottom: 1px solid #E6E6E6;
+}
+.container .EditSecurity .securitylist .left {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-left: 0;
+}
+.container .EditSecurity .securitylist .left span {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+.container .EditSecurity .securitylist .left span + span {
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: initial;
+}
+.container .EditSecurity .securitylist button {
+  width: 2.8rem;
+  height: 36px;
+  margin: auto 0.12rem;
+  background-color: #337AB7;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+.container .EditSecurity .securitylist button:disabled {
+  background-color: #b7b7b7;
+}
+.container .EditSecurity .EditSecurityPopup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody {
+  width: 10.24rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin: auto;
+  padding: 25px 20px;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody h3 {
+  margin-top: 0;
+  font-size: 22px;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .LogoBar {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  margin-bottom: 25px;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .LogoBar img {
+  display: block;
+  height: 100%;
+  margin: auto;
+  margin-left: 0;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .LogoBar button {
+  width: 20px;
+  height: 100%;
+  margin: auto;
+  margin-right: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .LogoBar button svg {
+  vertical-align: 0;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .editArea {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  position: relative;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .editArea input {
+  width: 100%;
+  height: 44px;
+  padding: 0px 0.3rem;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .editArea input:focus {
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .editArea .passwordShow {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .editArea .passwordShow label {
+  width: 22px;
+  height: 22px;
+  margin: auto;
+  position: relative;
+  cursor: pointer;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .editArea .passwordShow label input {
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .editArea .passwordShow label input:checked + i {
+  background-image: url("../img/icon/icon-openEyes.png");
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .editArea .passwordShow label i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+  background-image: url("../img/icon/icon-closeEyes.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .TMMVCode,
+.container .EditSecurity .EditSecurityPopup .popupBody .Code {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.container .EditSecurity .EditSecurityPopup .popupBody .text-danger {
+  width: 100%;
+}

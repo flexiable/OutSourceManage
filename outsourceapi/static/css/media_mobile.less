@@ -1,0 +1,13 @@
+﻿html{
+    font-size: 100-(750-320)*100/750*1px;
+}
+.loop( @count )when( @count <=750) {
+    @media only screen and (min-width: @count*1px) {
+        html {
+            font-size: 100-(750-@count)*100/750*1px !important;
+        }
+    }
+    .loop((@count + 1));
+}
+
+.loop(320);

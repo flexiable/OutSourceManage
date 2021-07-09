@@ -1,0 +1,1042 @@
+﻿html,body{
+    min-width: 320px;
+    max-width: 750px;
+    margin: auto;
+    padding: 0;
+    font-size: 0.28rem;
+}
+html{
+    display: none;
+}
+input{
+    -webkit-user-select:auto;
+}
+label{
+    margin-bottom: 0.1rem;
+}
+.accountHome{
+    height: 95%;
+    .container{
+        padding: 0;
+    }
+    .zwsoft-login, .zwsoft-register, .zwsoft-resetpassword{
+        padding: 0 0.4rem;
+    }
+}
+.form-control{
+    border-radius: 0.08rem;
+    font-size: 0.28rem;
+}
+.btn{
+    font-size: 0.28rem;
+    border-radius: 0.08rem;
+}
+.navbar{
+    height: 1rem;
+    .container-fluid{
+        .navbar-header{
+            padding: 0.3rem;
+            a{
+                width: 2.68rem;
+            }
+        }
+         .navbar-nav{
+            display: none;
+        }
+        .logout{
+            span{
+                font-size: 0.28rem;
+            }
+            a{
+                font-size: 0.44rem;
+                margin: auto 0.2rem;
+            }
+        }
+    }
+}
+.container{
+    margin: auto;
+    padding-top: 1rem;
+    position: relative;
+    .listTab{
+        width: 0;
+        border: none;
+        h2{
+            display: none;
+        }
+        .row{
+            opacity: 0;
+        }
+        .Mobile_TabBar{
+            width: 100%;
+            height: 1rem;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+            background-color: #ffffff;
+            display: flex;
+            box-shadow: 0 0 0.2rem 0 #CCCCCC;
+            label{
+                width: auto;
+                height: auto;
+                display: flex;
+                margin: auto;
+                fill: #666666;
+                font-size: 0.48rem;
+            }
+            .active{
+                fill: #337AB7;
+            }
+        }
+    }
+    .containner-body{
+        position: relative;
+        z-index: 1;
+        background-color: #FFFFFF;
+    }
+}
+.zwsoft-toast-container
+{
+    line-height: 0.34rem;
+
+    position: fixed;
+    z-index: 9999;
+    bottom: 1.5rem;
+    left: 50%;
+    
+    font-size: 0.28rem;
+
+    padding: 0.1rem 0.3rem;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: 0.12rem;
+    
+    -webkit-transition: opacity .5s;
+            transition: opacity .5s;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    opacity: 0;
+}
+.zwsoft-toast-container.zwsoft-active
+{
+    opacity: .9;
+}
+
+.zwsoft-toast-message
+{
+    font-size: 0.28rem;
+
+    padding: 0.1rem 0.3rem;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: 0.12rem;
+}
+.zwsoft-home {
+    width: 100%;
+    margin: auto;
+    img{
+        width: 3.62rem;
+    }
+    h3{
+        font-size: 0.48rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.6rem;
+    }
+    .clickArea{
+        width: 92%;
+        height: auto;
+        flex-direction: column;
+        a{
+            width: 100%;
+            height: 0.68rem;
+            font-size: 0.32rem;
+            border-radius: 0.16rem;
+            line-height: 0.6rem;
+            border-width: 0.04rem;
+            margin: 0;
+            &:first-child{
+                margin-right: 0;
+                margin-bottom: 0.4rem;
+                border-width: 2px;
+            }
+            &:last-child{
+                margin-left: 0;
+            }
+        }
+    }
+}
+.zwsoft-login{
+    width: 100%;
+    margin: auto;
+    .page-header{
+        margin: 0 0 0.6rem;
+        height: 0.6rem;
+        h1{
+            margin-left: 0.2rem;
+            font-size: 0.48rem;
+        }
+        img{
+            height: 0.36rem;
+            margin-right: 0.2rem;
+        }
+    }
+    .row{
+        padding: 0 0.2rem;
+        .col-sm-12{
+            .panel{
+                margin-bottom: 0.4rem;
+                border-radius: 0.08rem;
+                .panel-body{
+                    .form-group{
+                        input{
+                            height: 0.76rem;
+                            font-size: 0.28rem;
+                        }
+                        .passwordShow{
+                            width: 0.68rem;
+                            height: 0.68rem;
+                            label{
+                                width: 0.44rem;
+                                height: 0.44rem;
+                            }
+                        }
+                    }
+                    .clickArea{
+                        margin-top: 0.6rem;
+                        margin-bottom: 0.3rem;
+                    }
+                    .signin{
+                        font-size: 0.24rem;
+                    }
+                    .login-remember{
+                        height: 0.6rem;
+                        margin-top: 0.2rem;
+                        line-height: 0.6rem;
+                        label{
+                            i{
+                                width: 0.32rem;
+                                height: 0.32rem;
+                                border-radius: 0.08rem;
+                                margin-right: 0.2rem;
+                            }
+                            span{
+                                font-size: 0.24rem;
+                            }
+                        }
+                        a{
+                            font-size: 0.24rem;
+                        }
+                        button{
+                            font-size: 0.24rem;
+                        }
+                        &+.clickArea{
+                            margin-top: 0.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-header-psw{
+        margin-bottom: 0.4rem;
+        h1{
+            margin-bottom: 0.2rem;
+            font-size: 0.48rem;
+        }
+        button{
+            width: 0.4rem;
+            height: 0.4rem;
+        }
+        h6{
+            font-size: 0.28rem;
+            margin-bottom: 0.4rem;
+        }
+        img{
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-bottom: 0.4rem;
+        }
+    }
+}
+.zwsoft-register, .zwsoft-resetpassword{
+    width: 100%;
+    margin: auto;
+    .page-header{
+        margin-bottom: 0.4rem;
+        height: 0.6rem;
+        h1{
+            margin-left: 0.2rem;
+            font-size: 0.48rem;
+        }
+        img{
+            height: 0.36rem;
+            margin-right: 0.2rem;
+        }
+    }
+    .row{
+        padding: 0 0.2rem;
+        .col-sm-12{
+            .form-group{
+                height: 0.72rem;
+                margin-bottom: 0.1rem;
+                .passwordShow{
+                    width: 0.68rem;
+                    height: 0.68rem;
+                    label{
+                        width: 0.44rem;
+                        height: 0.44rem;
+                    }
+                }
+            }
+            .cp-group{
+                margin-bottom: 0.4rem;
+            }
+            .pswAlt{
+                margin-bottom: 0.6rem;
+                span{
+                    font-size: 0.24rem;
+                    color: #898989;
+                }
+            }
+            .confirmPswInp{
+                margin-bottom: 0.4rem;
+            }
+            .form-outset{
+                height: 0.52rem;
+                font-size: 0.24rem;
+                line-height: 0.52rem;
+            }
+            .form-group-tel{
+                label{
+                    input{
+                        &:first-child{
+                            margin-right: 0.2rem;
+                        }
+                    }
+                }
+            }
+            .NameBox{
+                .form-group{
+                    margin-bottom: 0.4rem;
+                    input{
+                        height: 100%;
+                    }
+                }
+            }
+            .yzm{
+                margin-bottom: 0.4rem;
+                button{
+                    height: 0.28rem;
+                    right: 0.24rem;
+                }
+            }
+            .TMMV{
+                margin-bottom: 0.4rem;
+                input{
+                    margin-right: 0.2rem;
+                }
+                button{
+                    border-radius: 0.08rem;
+                }
+                label{
+                    font-size: 0.28rem;
+                    margin-left: 0.2rem;
+                }
+                i{
+                    width: 0.4rem;
+                    height: 0.4rem;
+                    margin-left: 0.2rem;
+                }
+            }
+            .temp{
+                margin-bottom: 0.4rem;
+                display: block;
+            }
+            .login-remember{
+                label{
+                    i{
+                        width: 0.32rem;
+                        height: 0.32rem;
+                    }
+                    span{
+                        font-size: 0.24rem;
+                    }
+                }
+            }
+        }
+    }
+    .tabArea{
+        margin-bottom: 0.4rem;
+        button{
+            font-size: 0.28rem;
+            padding: 0;
+            &:hover{
+                border: none;
+            }
+        }
+    }
+    .subtitle{
+        font-size: 0.32rem;
+        margin-bottom: 0.32rem;
+        button{
+            width: 0.4rem;
+            height: 0.4rem;
+            margin-right: 0.2rem;
+        }
+    }
+}
+
+//编辑资料页
+.zwsoft-editorInformation{
+    padding:0.3rem 0.4rem 0.3rem;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+     h3{font-size: 0.48rem;}
+     
+     form.editor-form{
+        font-size: 0.28rem;
+        margin:0.65rem auto 0.4rem;
+        height: 100%;
+        overflow: initial;
+        
+        .row{margin-left:0;margin-right: 0;}
+        
+        .form-group{margin-bottom:0.3rem;}
+        
+        label.col-md-1{
+            font-size:0.28rem;
+            line-height: 0.68rem;
+            margin: 0;
+            padding:0;
+            flex-shrink: 0;
+            min-width:1.3rem;
+        }
+
+        select.col-md-1{margin-left: 0;padding: 0.13rem 0.12rem;
+          height: 0.68rem;
+          line-height: 0.68rem;
+        }
+        input[type="text"],select{
+            height: 0.68rem;
+            line-height: 0.68rem;
+        }
+        input[type="text"],select,textarea{
+            padding: 0.12rem 0.24rem;
+            font-size: 0.26rem;
+
+        }
+        .input-group.date .input-group-addon{
+            font-size: 0.28rem;
+            padding:0.12rem 0.48rem 0.12rem 0.24rem;
+            display: none;
+        }
+        .second-title{line-height: 0.72rem;}
+        .title{font-size: 0.36rem;line-height: 0.64rem;margin:0.5rem auto;}
+        .address{line-height: 0.54rem;margin:0.1rem auto;}
+        .warn-text{
+         font-size: 0.26rem;
+         line-height: 0.68rem;
+         padding-left: 0;
+         width: 100%;
+        }
+        .warning{display: inline-flex;line-height: 0.68rem;font-size: 0.26rem;}
+        span.red{line-height:0.28rem;}
+        ul.company-name{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            li{padding:0;margin:0.02rem auto;width:100%;}
+            label{line-height: 0.64rem;font-weight: 500;}
+        } 
+        textarea.col-xs-12{padding:0;}
+        div.input-group[class*="col-"]{display: inline-flex;width: 100%;}
+        .flex_row{display: flex;flex-direction: row;}
+        
+        .flex_row select{flex-grow: 0;}
+        
+        .flex{display: flex; line-height: 0.68rem;flex-grow: 1;flex-direction: column;}
+         
+        .flex input,.flex_row input{width: 100%;}
+         
+        .submit-btn{
+            width: calc(100% - 0.8rem);
+            position: relative;
+            bottom:0;
+            margin:0 auto 1rem;
+            padding:0.4rem 0;
+            button{
+                width:3rem;
+                padding:0.12rem 0.24rem;
+                font-size: 0.28rem;
+            }
+        }
+        input[name="Street"],textarea[name="Introduce"]{
+            display: flex;width: 100%;
+        }
+    }
+}
+#countrySelect{margin:0 auto;width: 100%;}
+#distpicker1{
+    margin:0.15rem auto;display: flex;flex-direction: row;
+    select{
+        flex-grow: 1;
+        width: 100%;
+    }
+}
+
+//基本信息页
+.zwsoft-information {
+    padding: 0.3rem 0.4rem;
+    .row{
+        padding:0.4rem 0;
+        margin-bottom: 1.8rem;
+        ul{
+            margin: 0.2rem auto;
+            li{
+                line-height: 0.64rem;
+                div{
+                    font-size: 0.28rem;
+                }
+                img{
+                    width: 0.3rem;
+                    margin: auto 0.1rem;
+                }
+            }
+        }
+        ul.showList{
+            li{
+                min-width: 2rem;
+                margin-right: 0.2rem;
+                font-size: 0.28rem;
+                
+                img{
+                    margin:auto 0.1rem;
+                    width: 0.3rem;
+                }
+            }
+        }
+        ul.job-information li{
+            float: none;
+            margin:0 auto;
+            span{font-size: 0.28rem;}
+        }
+        .col-md-2{
+            .information-image{
+                width: 2.4rem;
+                height: 2.4rem;
+                margin: 0 auto 0.4rem;
+            }
+            .updateImage{
+                width: 2rem;
+                height: 0.64rem;
+                line-height: 0.64rem;
+                border-radius: 0.08rem;
+                font-size: 0.28rem;
+                display: inline-table;
+            }
+        }
+        .person-information{
+            letter-spacing: 0.03rem;
+            font-size: 0.3rem;
+            div{
+                line-height: 0.56rem;
+                display: flex;
+            }
+            label{
+                width: 2rem;
+                flex-shrink: 0;
+                margin-right: 0.2rem;
+                padding-right: 0.08rem;
+            }
+            span{
+                text-align: justify;
+                flex-grow: 1;
+            }
+        }
+        .introduction{font-size: 0.28rem;word-break: break-word;}
+        .mr20{
+            margin-right: 0rem;
+        }
+        .split-liner{
+            margin: 0.6rem auto;
+        }
+        .col-md-12{
+            .address{
+                font-size: 0.28rem;
+            }
+        }
+    }
+    .update-float{
+        padding: 0 0.3rem;
+    }
+    .editor-btn{
+        border-radius: 0.1rem;
+        width: 3rem;
+        height: 0.64rem;
+        line-height: 0.64rem;
+        font-size: 0.28rem;
+    }
+    .tailoring-container{
+        width: 100%;
+        border-radius: 0.2rem;
+        box-shadow: 0 0 0.2rem #000;
+        padding: 0.2rem;
+        .tailoring-content{
+            min-width: auto;
+            height: auto;
+            .tailoring-content-one{
+                height: 0.8rem;
+            }
+            .choose-btn{
+                height: 0.64rem;
+            }
+            .tailoring-content-two{
+                padding: 0.16rem 0;
+                height: 6.7rem;
+            }
+            .tailoring-box-parcel,.preview-box-parcel{
+                height: 6.34rem;
+            }
+            .tailoring-content-three{
+                height: 0.8rem;
+                padding-top: 0.16rem;
+                button{
+                    margin: auto 0.2rem 0 0;
+                }
+                .sureCut{
+                    margin: auto 0px 0px auto;
+                }
+            }
+        }
+    }
+    .flex_column{
+        display: flex;flex-direction: column;
+        .flex_child{
+            width: 100%;
+            flex-grow: 0;
+        }
+    }
+    form{
+        width: calc(100% - 0.8rem);
+        margin: 0 auto 1rem;
+    }
+}
+//安全信息管理页
+.zwsoft-Security{
+    .form-group{
+        position: relative;
+        margin-bottom: 0;
+        i{
+            height: 100%;
+            display: flex;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            svg{
+                margin: auto;
+            }
+        }
+        .btn-list-label{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        .text-area{
+            width: 100%;
+            flex-direction: row;
+            span{
+                &+span{
+                    margin-top: auto;
+                    margin-left: auto;
+                    margin-right: 1.5em;
+                }
+            }
+        }
+    }
+    .TMMV{
+        label{
+            display: none;
+        }
+        input{
+            width: 100% !important;
+        }
+        button{
+            flex-shrink: 0;
+        }
+    }
+}
+#ResetUsrName, #ResetEmail, #ResetTelphone, #ResetPassword, #AuthenSetting, #Destroy{
+    display: none;
+}
+.form-float{
+    padding: 0.3rem 0.4rem;
+}
+h1, .h1, h2, .h2, h3, .h3{
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+h4, .h4, h5, .h5, h6, .h6{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.h3,h3{
+    font-size: 0.48rem;
+}
+.row{
+    margin-right: -0.3rem;
+    margin-left: -0.3rem;
+}
+.col-md-2,.col-md-10,.col-md-12{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.textTitle{
+    line-height: 0.64rem;
+    margin: 0.3rem auto;
+    font-size: 0.36rem;
+}
+.l-btn{
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.06rem;
+    font-size: 0.28rem;
+}
+#updateGoback{
+    width: 0.64rem;
+    height: 0.64rem;
+}
+.form-float{
+    .float-box{
+        width: 100%;
+        padding: 0.5rem 0.4rem;
+        border-radius: 0.2rem;
+        h2,h3{
+            font-size: 0.44rem;
+            margin-bottom: 0.1rem;
+        }
+        h4{
+            font-size: 0.32rem;
+            margin: 0.4rem auto;
+        }
+        .form-group{
+            height: 0.88rem;
+            input{
+                font-size: 0.28rem;
+            }
+        }
+        .form-button{
+            height: 0.72rem;
+            margin-top: 0.4rem;
+            button{
+                border-radius: 0.1rem;
+            }
+        }
+        .TMMV{
+            margin: 0.1rem auto 0.2rem;
+            input{
+                margin-right: 0.2rem;
+            }
+            button{
+                border-radius: 0.08rem;
+            }
+            i{
+                width: 0.4rem;
+                height: 0.4rem;
+                margin-left: 0.2rem;
+            }
+        }
+        .yzm{
+            margin-bottom: 0.1rem;
+            button{
+                height: 0.28rem;
+                margin: auto 0.3rem;
+            }
+        }
+    }
+    .LogoBar{
+        height: 0.4rem;
+        margin-bottom: 0.5rem;
+        button{
+            width: 0.4rem;
+            font-size: 0.4rem;
+        }
+    }
+    .WarnTips_p{
+        margin:0 0 0.2rem;
+        font-size: 0.28rem;
+    }
+}
+.zwsoft-Security{
+    padding: 0.3rem 0.4rem;
+    .form-group{
+        height: 1.1rem;
+        button{
+            border-radius: 0.1rem;
+        }
+        .text-area{
+            span{
+                font-size: 0.32rem;
+                &+span{
+                    font-size: 0.28rem;
+                }
+            }
+        }
+    }
+    .bing-phone, .verify-phone{
+        padding: 0.3rem 0.4rem;
+        .verify-phone-box{
+            width: 100%;
+            padding: 0.5rem 0.4rem;
+            border-radius: 0.2rem;
+            box-shadow: 0 0 0.12rem 0 #9AC1E2;
+            h3{
+                font-size: 0.36rem;
+                margin: 0.3rem auto;
+                button{
+                    font-size: 0.28rem;
+                    flex-shrink: 0;
+                }
+            }
+            h4{
+                font-size: 0.28rem;
+            }
+            .LogoBar{
+                height: 0.4rem;
+                margin-bottom: 0.4rem;
+                button{
+                    width: 0.4rem;
+                    font-size: 0.4rem;
+                }
+            }
+            .TMMV{
+                margin: 0.1rem auto 0.2rem;
+                margin-right: 0.2rem;
+                input{
+                    flex-shrink: 1;
+                }
+                button{
+                    border-radius: 0.08rem;
+                    margin: auto 0 !important;
+                }
+                i{
+                    width: 0.4rem;
+                    height: 0.4rem;
+                }
+            }
+            .yzm{
+                margin-bottom: 0.1rem;
+                button{
+                    height: 0.28rem !important;
+                    margin: auto 0.3rem !important;
+                }
+            }
+            .form-group{
+                height: 0.88rem;
+                button{
+                    height: 0.72rem;
+                    margin-top: 0.4rem;
+                }
+            }
+            .form-button{
+                height: auto;
+            }
+        }
+    }
+    h2{
+        font-size: 0.44rem;
+        margin-bottom: 0.4rem;
+    }
+    .text-danger{
+        height: 0.32rem;
+        line-height: 0.32rem;
+        margin-bottom: 0.1rem;
+    }
+    .ResetPassword{
+        .float-box{
+            .form-group{
+                 input{
+                     height: 0.88rem;
+                     &+input{
+                         margin-top: 0.2rem;
+                     }
+                 }
+            }
+        }
+    }
+}
+
+.public-container{
+     padding: 0.3rem 0.4rem 0.3rem;
+}
+//链接账户管理页
+.zwsoft-linkAccounts{
+    .public-container();
+     p{
+       font-size: 0.3rem;
+       line-height: 0.56rem;
+       margin-top: 0.5rem;
+      }
+}
+.zwsoft-preferences{
+    
+    .public-container();
+    
+    font-size: 0.28rem;
+    
+    .lineStyle{
+        
+      border-bottom: 0.02rem solid #efefef;
+      height: 1.1rem;
+      position: relative;
+      
+       div.show-language,div.change-language{
+           
+           height:1.1rem;
+         
+            div.language,select.form-control{
+                line-height:1.1rem;
+            }
+             select.form-control{
+                margin: auto;
+                margin-left: 0;
+                padding:0.1rem 0.24rem;
+                font-size: 0.28rem;
+                width: 3rem;
+                height: 0.65rem;
+                line-height: 0.65rem;
+                
+                option{font-size: 0.24rem;}
+            }
+       }
+       button{
+            height: 0.64rem;
+            position: static;
+            margin-right: 0;
+       }
+    }
+}
+#WarnTips{font-size: 0.28rem;}
+.PrivacyBox, .ServiceAgreementBox{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0.2rem;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+    display: none;
+    flex-direction: column;
+    .box{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 0.2rem;
+        background-color: #FFFFFF;
+        overflow: auto;
+        border-radius: 0.2rem;
+    }
+    .cbtn{
+        width: 2rem;
+        height: 0.8rem;
+        background-color: #2c82ca;
+        color: #FFFFFF;
+        line-height: 0.8rem;
+        font-size: 0.28rem;
+        margin: auto;
+        flex-shrink: 0;
+        border-radius: 0.1rem;
+        text-align: center;
+    }
+}
+#SystemImage{
+    .box{
+        width: 6.4rem;
+        border-radius: 0.2rem;
+        box-shadow: 0 0 0.2rem #000;
+        padding: 0 0.2rem 0.2rem;
+        .content{
+            width: 100%;
+            .header{
+                width: 100%;
+                height: 1rem;
+                h1{
+                    font-size: 0.36rem;
+                }
+                a{
+                    width: 0.56rem;
+                    height: 0.56rem;
+                    line-height: 0.56rem;
+                }
+            }
+            .ctent{
+                width: 100%;
+                height: 6.2rem;
+                position: relative;
+                padding: 0.16rem 0;
+                overflow: auto;
+                .lists{
+                    label{
+                        width: 1.64rem;
+                        height: 1.64rem;
+                        margin: 0.18rem;
+                        input{
+                            &+img{
+                                padding: 0.48rem;
+                            }
+                        }
+                    }
+                }
+                .scroll{
+                    position: fixed;
+                    top: 100%;
+                    left: 100%;
+                    display: none;
+                }
+            }
+            .footer{
+                width: 100%;
+                height: 0.8rem;
+                padding-top: 0.16rem;
+                button{
+                    width: 1.44rem;
+                }
+            }
+        }
+    }
+}
+.privacy-enUS .center{
+        overflow-x: auto;
+    }
+    .privacy-zhCN .center, .privacy-enUS .center{
+        min-width: 300px !important;
+        padding: 0 0.4rem !important;
+    }
+    .privacy-zhCN .center h3, .privacy-enUS .center h3{
+        font-size: 0.4rem !important;
+    }
+    .privacy-zhCN .center p, .privacy-enUS .center p{
+        font-size: 0.24rem !important;
+    }
+    .privacy-zhCN .center .strong, .privacy-enUS .center .strong{
+        font-size: 0.3rem !important;
+    }
+    .privacy-zhCN .center table tr td, .privacy-enUS .center table tr td{
+        padding: 0.1rem 0.1rem !important;
+    }
+.sdk-zhCN{
+    overflow-x: auto !important;
+}

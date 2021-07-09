@@ -1,0 +1,1101 @@
+html,
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: auto;
+  padding: 0;
+  font-size: 0.28rem;
+}
+html {
+  display: none;
+}
+input {
+  -webkit-user-select: auto;
+}
+label {
+  margin-bottom: 0.1rem;
+}
+.accountHome {
+  height: 95%;
+}
+.accountHome .container {
+  padding: 0;
+}
+.accountHome .zwsoft-login,
+.accountHome .zwsoft-register,
+.accountHome .zwsoft-resetpassword {
+  padding: 0 0.4rem;
+}
+.form-control {
+  border-radius: 0.08rem;
+  font-size: 0.28rem;
+}
+.btn {
+  font-size: 0.28rem;
+  border-radius: 0.08rem;
+}
+.navbar {
+  height: 1rem;
+}
+.navbar .container-fluid .navbar-header {
+  padding: 0.3rem;
+}
+.navbar .container-fluid .navbar-header a {
+  width: 2.68rem;
+}
+.navbar .container-fluid .navbar-nav {
+  display: none;
+}
+.navbar .container-fluid .logout span {
+  font-size: 0.28rem;
+}
+.navbar .container-fluid .logout a {
+  font-size: 0.44rem;
+  margin: auto 0.2rem;
+}
+.container {
+  margin: auto;
+  padding-top: 1rem;
+  position: relative;
+}
+.container .listTab {
+  width: 0;
+  border: none;
+}
+.container .listTab h2 {
+  display: none;
+}
+.container .listTab .row {
+  opacity: 0;
+}
+.container .listTab .Mobile_TabBar {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #ffffff;
+  display: flex;
+  box-shadow: 0 0 0.2rem 0 #CCCCCC;
+}
+.container .listTab .Mobile_TabBar label {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: auto;
+  fill: #666666;
+  font-size: 0.48rem;
+}
+.container .listTab .Mobile_TabBar .active {
+  fill: #337AB7;
+}
+.container .containner-body {
+  position: relative;
+  z-index: 1;
+  background-color: #FFFFFF;
+}
+.zwsoft-toast-container {
+  line-height: 0.34rem;
+  position: fixed;
+  z-index: 9999;
+  bottom: 1.5rem;
+  left: 50%;
+  font-size: 0.28rem;
+  padding: 0.1rem 0.3rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.12rem;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  opacity: 0;
+}
+.zwsoft-toast-container.zwsoft-active {
+  opacity: 0.9;
+}
+.zwsoft-toast-message {
+  font-size: 0.28rem;
+  padding: 0.1rem 0.3rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.12rem;
+}
+.zwsoft-home {
+  width: 100%;
+  margin: auto;
+}
+.zwsoft-home img {
+  width: 3.62rem;
+}
+.zwsoft-home h3 {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+.zwsoft-home .clickArea {
+  width: 92%;
+  height: auto;
+  flex-direction: column;
+}
+.zwsoft-home .clickArea a {
+  width: 100%;
+  height: 0.68rem;
+  font-size: 0.32rem;
+  border-radius: 0.16rem;
+  line-height: 0.6rem;
+  border-width: 0.04rem;
+  margin: 0;
+}
+.zwsoft-home .clickArea a:first-child {
+  margin-right: 0;
+  margin-bottom: 0.4rem;
+  border-width: 2px;
+}
+.zwsoft-home .clickArea a:last-child {
+  margin-left: 0;
+}
+.zwsoft-login {
+  width: 100%;
+  margin: auto;
+}
+.zwsoft-login .page-header {
+  margin: 0 0 0.6rem;
+  height: 0.6rem;
+}
+.zwsoft-login .page-header h1 {
+  margin-left: 0.2rem;
+  font-size: 0.48rem;
+}
+.zwsoft-login .page-header img {
+  height: 0.36rem;
+  margin-right: 0.2rem;
+}
+.zwsoft-login .row {
+  padding: 0 0.2rem;
+}
+.zwsoft-login .row .col-sm-12 .panel {
+  margin-bottom: 0.4rem;
+  border-radius: 0.08rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .form-group input {
+  height: 0.76rem;
+  font-size: 0.28rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .form-group .passwordShow {
+  width: 0.68rem;
+  height: 0.68rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .form-group .passwordShow label {
+  width: 0.44rem;
+  height: 0.44rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .clickArea {
+  margin-top: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .signin {
+  font-size: 0.24rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .login-remember {
+  height: 0.6rem;
+  margin-top: 0.2rem;
+  line-height: 0.6rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .login-remember label i {
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.08rem;
+  margin-right: 0.2rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .login-remember label span {
+  font-size: 0.24rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .login-remember a {
+  font-size: 0.24rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .login-remember button {
+  font-size: 0.24rem;
+}
+.zwsoft-login .row .col-sm-12 .panel .panel-body .login-remember + .clickArea {
+  margin-top: 0.3rem;
+}
+.zwsoft-login .page-header-psw {
+  margin-bottom: 0.4rem;
+}
+.zwsoft-login .page-header-psw h1 {
+  margin-bottom: 0.2rem;
+  font-size: 0.48rem;
+}
+.zwsoft-login .page-header-psw button {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.zwsoft-login .page-header-psw h6 {
+  font-size: 0.28rem;
+  margin-bottom: 0.4rem;
+}
+.zwsoft-login .page-header-psw img {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+.zwsoft-register,
+.zwsoft-resetpassword {
+  width: 100%;
+  margin: auto;
+}
+.zwsoft-register .page-header,
+.zwsoft-resetpassword .page-header {
+  margin-bottom: 0.4rem;
+  height: 0.6rem;
+}
+.zwsoft-register .page-header h1,
+.zwsoft-resetpassword .page-header h1 {
+  margin-left: 0.2rem;
+  font-size: 0.48rem;
+}
+.zwsoft-register .page-header img,
+.zwsoft-resetpassword .page-header img {
+  height: 0.36rem;
+  margin-right: 0.2rem;
+}
+.zwsoft-register .row,
+.zwsoft-resetpassword .row {
+  padding: 0 0.2rem;
+}
+.zwsoft-register .row .col-sm-12 .form-group,
+.zwsoft-resetpassword .row .col-sm-12 .form-group {
+  height: 0.72rem;
+  margin-bottom: 0.1rem;
+}
+.zwsoft-register .row .col-sm-12 .form-group .passwordShow,
+.zwsoft-resetpassword .row .col-sm-12 .form-group .passwordShow {
+  width: 0.68rem;
+  height: 0.68rem;
+}
+.zwsoft-register .row .col-sm-12 .form-group .passwordShow label,
+.zwsoft-resetpassword .row .col-sm-12 .form-group .passwordShow label {
+  width: 0.44rem;
+  height: 0.44rem;
+}
+.zwsoft-register .row .col-sm-12 .cp-group,
+.zwsoft-resetpassword .row .col-sm-12 .cp-group {
+  margin-bottom: 0.4rem;
+}
+.zwsoft-register .row .col-sm-12 .pswAlt,
+.zwsoft-resetpassword .row .col-sm-12 .pswAlt {
+  margin-bottom: 0.6rem;
+}
+.zwsoft-register .row .col-sm-12 .pswAlt span,
+.zwsoft-resetpassword .row .col-sm-12 .pswAlt span {
+  font-size: 0.24rem;
+  color: #898989;
+}
+.zwsoft-register .row .col-sm-12 .confirmPswInp,
+.zwsoft-resetpassword .row .col-sm-12 .confirmPswInp {
+  margin-bottom: 0.4rem;
+}
+.zwsoft-register .row .col-sm-12 .form-outset,
+.zwsoft-resetpassword .row .col-sm-12 .form-outset {
+  height: 0.52rem;
+  font-size: 0.24rem;
+  line-height: 0.52rem;
+}
+.zwsoft-register .row .col-sm-12 .form-group-tel label input:first-child,
+.zwsoft-resetpassword .row .col-sm-12 .form-group-tel label input:first-child {
+  margin-right: 0.2rem;
+}
+.zwsoft-register .row .col-sm-12 .NameBox .form-group,
+.zwsoft-resetpassword .row .col-sm-12 .NameBox .form-group {
+  margin-bottom: 0.4rem;
+}
+.zwsoft-register .row .col-sm-12 .NameBox .form-group input,
+.zwsoft-resetpassword .row .col-sm-12 .NameBox .form-group input {
+  height: 100%;
+}
+.zwsoft-register .row .col-sm-12 .yzm,
+.zwsoft-resetpassword .row .col-sm-12 .yzm {
+  margin-bottom: 0.4rem;
+}
+.zwsoft-register .row .col-sm-12 .yzm button,
+.zwsoft-resetpassword .row .col-sm-12 .yzm button {
+  height: 0.28rem;
+  right: 0.24rem;
+}
+.zwsoft-register .row .col-sm-12 .TMMV,
+.zwsoft-resetpassword .row .col-sm-12 .TMMV {
+  margin-bottom: 0.4rem;
+}
+.zwsoft-register .row .col-sm-12 .TMMV input,
+.zwsoft-resetpassword .row .col-sm-12 .TMMV input {
+  margin-right: 0.2rem;
+}
+.zwsoft-register .row .col-sm-12 .TMMV button,
+.zwsoft-resetpassword .row .col-sm-12 .TMMV button {
+  border-radius: 0.08rem;
+}
+.zwsoft-register .row .col-sm-12 .TMMV label,
+.zwsoft-resetpassword .row .col-sm-12 .TMMV label {
+  font-size: 0.28rem;
+  margin-left: 0.2rem;
+}
+.zwsoft-register .row .col-sm-12 .TMMV i,
+.zwsoft-resetpassword .row .col-sm-12 .TMMV i {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-left: 0.2rem;
+}
+.zwsoft-register .row .col-sm-12 .temp,
+.zwsoft-resetpassword .row .col-sm-12 .temp {
+  margin-bottom: 0.4rem;
+  display: block;
+}
+.zwsoft-register .row .col-sm-12 .login-remember label i,
+.zwsoft-resetpassword .row .col-sm-12 .login-remember label i {
+  width: 0.32rem;
+  height: 0.32rem;
+}
+.zwsoft-register .row .col-sm-12 .login-remember label span,
+.zwsoft-resetpassword .row .col-sm-12 .login-remember label span {
+  font-size: 0.24rem;
+}
+.zwsoft-register .tabArea,
+.zwsoft-resetpassword .tabArea {
+  margin-bottom: 0.4rem;
+}
+.zwsoft-register .tabArea button,
+.zwsoft-resetpassword .tabArea button {
+  font-size: 0.28rem;
+  padding: 0;
+}
+.zwsoft-register .tabArea button:hover,
+.zwsoft-resetpassword .tabArea button:hover {
+  border: none;
+}
+.zwsoft-register .subtitle,
+.zwsoft-resetpassword .subtitle {
+  font-size: 0.32rem;
+  margin-bottom: 0.32rem;
+}
+.zwsoft-register .subtitle button,
+.zwsoft-resetpassword .subtitle button {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.2rem;
+}
+.zwsoft-editorInformation {
+  padding: 0.3rem 0.4rem 0.3rem;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.zwsoft-editorInformation h3 {
+  font-size: 0.48rem;
+}
+.zwsoft-editorInformation form.editor-form {
+  font-size: 0.28rem;
+  margin: 0.65rem auto 0.4rem;
+  height: 100%;
+  overflow: initial;
+}
+.zwsoft-editorInformation form.editor-form .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.zwsoft-editorInformation form.editor-form .form-group {
+  margin-bottom: 0.3rem;
+}
+.zwsoft-editorInformation form.editor-form label.col-md-1 {
+  font-size: 0.28rem;
+  line-height: 0.68rem;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  min-width: 1.3rem;
+}
+.zwsoft-editorInformation form.editor-form select.col-md-1 {
+  margin-left: 0;
+  padding: 0.13rem 0.12rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+}
+.zwsoft-editorInformation form.editor-form input[type="text"],
+.zwsoft-editorInformation form.editor-form select {
+  height: 0.68rem;
+  line-height: 0.68rem;
+}
+.zwsoft-editorInformation form.editor-form input[type="text"],
+.zwsoft-editorInformation form.editor-form select,
+.zwsoft-editorInformation form.editor-form textarea {
+  padding: 0.12rem 0.24rem;
+  font-size: 0.26rem;
+}
+.zwsoft-editorInformation form.editor-form .input-group.date .input-group-addon {
+  font-size: 0.28rem;
+  padding: 0.12rem 0.48rem 0.12rem 0.24rem;
+  display: none;
+}
+.zwsoft-editorInformation form.editor-form .second-title {
+  line-height: 0.72rem;
+}
+.zwsoft-editorInformation form.editor-form .title {
+  font-size: 0.36rem;
+  line-height: 0.64rem;
+  margin: 0.5rem auto;
+}
+.zwsoft-editorInformation form.editor-form .address {
+  line-height: 0.54rem;
+  margin: 0.1rem auto;
+}
+.zwsoft-editorInformation form.editor-form .warn-text {
+  font-size: 0.26rem;
+  line-height: 0.68rem;
+  padding-left: 0;
+  width: 100%;
+}
+.zwsoft-editorInformation form.editor-form .warning {
+  display: inline-flex;
+  line-height: 0.68rem;
+  font-size: 0.26rem;
+}
+.zwsoft-editorInformation form.editor-form span.red {
+  line-height: 0.28rem;
+}
+.zwsoft-editorInformation form.editor-form ul.company-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.zwsoft-editorInformation form.editor-form ul.company-name li {
+  padding: 0;
+  margin: 0.02rem auto;
+  width: 100%;
+}
+.zwsoft-editorInformation form.editor-form ul.company-name label {
+  line-height: 0.64rem;
+  font-weight: 500;
+}
+.zwsoft-editorInformation form.editor-form textarea.col-xs-12 {
+  padding: 0;
+}
+.zwsoft-editorInformation form.editor-form div.input-group[class*="col-"] {
+  display: inline-flex;
+  width: 100%;
+}
+.zwsoft-editorInformation form.editor-form .flex_row {
+  display: flex;
+  flex-direction: row;
+}
+.zwsoft-editorInformation form.editor-form .flex_row select {
+  flex-grow: 0;
+}
+.zwsoft-editorInformation form.editor-form .flex {
+  display: flex;
+  line-height: 0.68rem;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.zwsoft-editorInformation form.editor-form .flex input,
+.zwsoft-editorInformation form.editor-form .flex_row input {
+  width: 100%;
+}
+.zwsoft-editorInformation form.editor-form .submit-btn {
+  width: calc(100% - 0.8rem);
+  position: relative;
+  bottom: 0;
+  margin: 0 auto 1rem;
+  padding: 0.4rem 0;
+}
+.zwsoft-editorInformation form.editor-form .submit-btn button {
+  width: 3rem;
+  padding: 0.12rem 0.24rem;
+  font-size: 0.28rem;
+}
+.zwsoft-editorInformation form.editor-form input[name="Street"],
+.zwsoft-editorInformation form.editor-form textarea[name="Introduce"] {
+  display: flex;
+  width: 100%;
+}
+#countrySelect {
+  margin: 0 auto;
+  width: 100%;
+}
+#distpicker1 {
+  margin: 0.15rem auto;
+  display: flex;
+  flex-direction: row;
+}
+#distpicker1 select {
+  flex-grow: 1;
+  width: 100%;
+}
+.zwsoft-information {
+  padding: 0.3rem 0.4rem;
+}
+.zwsoft-information .row {
+  padding: 0.4rem 0;
+  margin-bottom: 1.8rem;
+}
+.zwsoft-information .row ul {
+  margin: 0.2rem auto;
+}
+.zwsoft-information .row ul li {
+  line-height: 0.64rem;
+}
+.zwsoft-information .row ul li div {
+  font-size: 0.28rem;
+}
+.zwsoft-information .row ul li img {
+  width: 0.3rem;
+  margin: auto 0.1rem;
+}
+.zwsoft-information .row ul.showList li {
+  min-width: 2rem;
+  margin-right: 0.2rem;
+  font-size: 0.28rem;
+}
+.zwsoft-information .row ul.showList li img {
+  margin: auto 0.1rem;
+  width: 0.3rem;
+}
+.zwsoft-information .row ul.job-information li {
+  float: none;
+  margin: 0 auto;
+}
+.zwsoft-information .row ul.job-information li span {
+  font-size: 0.28rem;
+}
+.zwsoft-information .row .col-md-2 .information-image {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0 auto 0.4rem;
+}
+.zwsoft-information .row .col-md-2 .updateImage {
+  width: 2rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  border-radius: 0.08rem;
+  font-size: 0.28rem;
+  display: inline-table;
+}
+.zwsoft-information .row .person-information {
+  letter-spacing: 0.03rem;
+  font-size: 0.3rem;
+}
+.zwsoft-information .row .person-information div {
+  line-height: 0.56rem;
+  display: flex;
+}
+.zwsoft-information .row .person-information label {
+  width: 2rem;
+  flex-shrink: 0;
+  margin-right: 0.2rem;
+  padding-right: 0.08rem;
+}
+.zwsoft-information .row .person-information span {
+  text-align: justify;
+  flex-grow: 1;
+}
+.zwsoft-information .row .introduction {
+  font-size: 0.28rem;
+  word-break: break-word;
+}
+.zwsoft-information .row .mr20 {
+  margin-right: 0rem;
+}
+.zwsoft-information .row .split-liner {
+  margin: 0.6rem auto;
+}
+.zwsoft-information .row .col-md-12 .address {
+  font-size: 0.28rem;
+}
+.zwsoft-information .update-float {
+  padding: 0 0.3rem;
+}
+.zwsoft-information .editor-btn {
+  border-radius: 0.1rem;
+  width: 3rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  font-size: 0.28rem;
+}
+.zwsoft-information .tailoring-container {
+  width: 100%;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0.2rem #000;
+  padding: 0.2rem;
+}
+.zwsoft-information .tailoring-container .tailoring-content {
+  min-width: auto;
+  height: auto;
+}
+.zwsoft-information .tailoring-container .tailoring-content .tailoring-content-one {
+  height: 0.8rem;
+}
+.zwsoft-information .tailoring-container .tailoring-content .choose-btn {
+  height: 0.64rem;
+}
+.zwsoft-information .tailoring-container .tailoring-content .tailoring-content-two {
+  padding: 0.16rem 0;
+  height: 6.7rem;
+}
+.zwsoft-information .tailoring-container .tailoring-content .tailoring-box-parcel,
+.zwsoft-information .tailoring-container .tailoring-content .preview-box-parcel {
+  height: 6.34rem;
+}
+.zwsoft-information .tailoring-container .tailoring-content .tailoring-content-three {
+  height: 0.8rem;
+  padding-top: 0.16rem;
+}
+.zwsoft-information .tailoring-container .tailoring-content .tailoring-content-three button {
+  margin: auto 0.2rem 0 0;
+}
+.zwsoft-information .tailoring-container .tailoring-content .tailoring-content-three .sureCut {
+  margin: auto 0px 0px auto;
+}
+.zwsoft-information .flex_column {
+  display: flex;
+  flex-direction: column;
+}
+.zwsoft-information .flex_column .flex_child {
+  width: 100%;
+  flex-grow: 0;
+}
+.zwsoft-information form {
+  width: calc(100% - 0.8rem);
+  margin: 0 auto 1rem;
+}
+.zwsoft-Security .form-group {
+  position: relative;
+  margin-bottom: 0;
+}
+.zwsoft-Security .form-group i {
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.zwsoft-Security .form-group i svg {
+  margin: auto;
+}
+.zwsoft-Security .form-group .btn-list-label {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.zwsoft-Security .form-group .text-area {
+  width: 100%;
+  flex-direction: row;
+}
+.zwsoft-Security .form-group .text-area span + span {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 1.5em;
+}
+.zwsoft-Security .TMMV label {
+  display: none;
+}
+.zwsoft-Security .TMMV input {
+  width: 100% !important;
+}
+.zwsoft-Security .TMMV button {
+  flex-shrink: 0;
+}
+#ResetUsrName,
+#ResetEmail,
+#ResetTelphone,
+#ResetPassword,
+#AuthenSetting,
+#Destroy {
+  display: none;
+}
+.form-float {
+  padding: 0.3rem 0.4rem;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.h3,
+h3 {
+  font-size: 0.48rem;
+}
+.row {
+  margin-right: -0.3rem;
+  margin-left: -0.3rem;
+}
+.col-md-2,
+.col-md-10,
+.col-md-12 {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.textTitle {
+  line-height: 0.64rem;
+  margin: 0.3rem auto;
+  font-size: 0.36rem;
+}
+.l-btn {
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.06rem;
+  font-size: 0.28rem;
+}
+#updateGoback {
+  width: 0.64rem;
+  height: 0.64rem;
+}
+.form-float .float-box {
+  width: 100%;
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.2rem;
+}
+.form-float .float-box h2,
+.form-float .float-box h3 {
+  font-size: 0.44rem;
+  margin-bottom: 0.1rem;
+}
+.form-float .float-box h4 {
+  font-size: 0.32rem;
+  margin: 0.4rem auto;
+}
+.form-float .float-box .form-group {
+  height: 0.88rem;
+}
+.form-float .float-box .form-group input {
+  font-size: 0.28rem;
+}
+.form-float .float-box .form-button {
+  height: 0.72rem;
+  margin-top: 0.4rem;
+}
+.form-float .float-box .form-button button {
+  border-radius: 0.1rem;
+}
+.form-float .float-box .TMMV {
+  margin: 0.1rem auto 0.2rem;
+}
+.form-float .float-box .TMMV input {
+  margin-right: 0.2rem;
+}
+.form-float .float-box .TMMV button {
+  border-radius: 0.08rem;
+}
+.form-float .float-box .TMMV i {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-left: 0.2rem;
+}
+.form-float .float-box .yzm {
+  margin-bottom: 0.1rem;
+}
+.form-float .float-box .yzm button {
+  height: 0.28rem;
+  margin: auto 0.3rem;
+}
+.form-float .LogoBar {
+  height: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.form-float .LogoBar button {
+  width: 0.4rem;
+  font-size: 0.4rem;
+}
+.form-float .WarnTips_p {
+  margin: 0 0 0.2rem;
+  font-size: 0.28rem;
+}
+.zwsoft-Security {
+  padding: 0.3rem 0.4rem;
+}
+.zwsoft-Security .form-group {
+  height: 1.1rem;
+}
+.zwsoft-Security .form-group button {
+  border-radius: 0.1rem;
+}
+.zwsoft-Security .form-group .text-area span {
+  font-size: 0.32rem;
+}
+.zwsoft-Security .form-group .text-area span + span {
+  font-size: 0.28rem;
+}
+.zwsoft-Security .bing-phone,
+.zwsoft-Security .verify-phone {
+  padding: 0.3rem 0.4rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box,
+.zwsoft-Security .verify-phone .verify-phone-box {
+  width: 100%;
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0.12rem 0 #9AC1E2;
+}
+.zwsoft-Security .bing-phone .verify-phone-box h3,
+.zwsoft-Security .verify-phone .verify-phone-box h3 {
+  font-size: 0.36rem;
+  margin: 0.3rem auto;
+}
+.zwsoft-Security .bing-phone .verify-phone-box h3 button,
+.zwsoft-Security .verify-phone .verify-phone-box h3 button {
+  font-size: 0.28rem;
+  flex-shrink: 0;
+}
+.zwsoft-Security .bing-phone .verify-phone-box h4,
+.zwsoft-Security .verify-phone .verify-phone-box h4 {
+  font-size: 0.28rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .LogoBar,
+.zwsoft-Security .verify-phone .verify-phone-box .LogoBar {
+  height: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .LogoBar button,
+.zwsoft-Security .verify-phone .verify-phone-box .LogoBar button {
+  width: 0.4rem;
+  font-size: 0.4rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .TMMV,
+.zwsoft-Security .verify-phone .verify-phone-box .TMMV {
+  margin: 0.1rem auto 0.2rem;
+  margin-right: 0.2rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .TMMV input,
+.zwsoft-Security .verify-phone .verify-phone-box .TMMV input {
+  flex-shrink: 1;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .TMMV button,
+.zwsoft-Security .verify-phone .verify-phone-box .TMMV button {
+  border-radius: 0.08rem;
+  margin: auto 0 !important;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .TMMV i,
+.zwsoft-Security .verify-phone .verify-phone-box .TMMV i {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .yzm,
+.zwsoft-Security .verify-phone .verify-phone-box .yzm {
+  margin-bottom: 0.1rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .yzm button,
+.zwsoft-Security .verify-phone .verify-phone-box .yzm button {
+  height: 0.28rem !important;
+  margin: auto 0.3rem !important;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .form-group,
+.zwsoft-Security .verify-phone .verify-phone-box .form-group {
+  height: 0.88rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .form-group button,
+.zwsoft-Security .verify-phone .verify-phone-box .form-group button {
+  height: 0.72rem;
+  margin-top: 0.4rem;
+}
+.zwsoft-Security .bing-phone .verify-phone-box .form-button,
+.zwsoft-Security .verify-phone .verify-phone-box .form-button {
+  height: auto;
+}
+.zwsoft-Security h2 {
+  font-size: 0.44rem;
+  margin-bottom: 0.4rem;
+}
+.zwsoft-Security .text-danger {
+  height: 0.32rem;
+  line-height: 0.32rem;
+  margin-bottom: 0.1rem;
+}
+.zwsoft-Security .ResetPassword .float-box .form-group input {
+  height: 0.88rem;
+}
+.zwsoft-Security .ResetPassword .float-box .form-group input + input {
+  margin-top: 0.2rem;
+}
+.public-container {
+  padding: 0.3rem 0.4rem 0.3rem;
+}
+.zwsoft-linkAccounts {
+  padding: 0.3rem 0.4rem 0.3rem;
+}
+.zwsoft-linkAccounts p {
+  font-size: 0.3rem;
+  line-height: 0.56rem;
+  margin-top: 0.5rem;
+}
+.zwsoft-preferences {
+  padding: 0.3rem 0.4rem 0.3rem;
+  font-size: 0.28rem;
+}
+.zwsoft-preferences .lineStyle {
+  border-bottom: 0.02rem solid #efefef;
+  height: 1.1rem;
+  position: relative;
+}
+.zwsoft-preferences .lineStyle div.show-language,
+.zwsoft-preferences .lineStyle div.change-language {
+  height: 1.1rem;
+}
+.zwsoft-preferences .lineStyle div.show-language div.language,
+.zwsoft-preferences .lineStyle div.change-language div.language,
+.zwsoft-preferences .lineStyle div.show-language select.form-control,
+.zwsoft-preferences .lineStyle div.change-language select.form-control {
+  line-height: 1.1rem;
+}
+.zwsoft-preferences .lineStyle div.show-language select.form-control,
+.zwsoft-preferences .lineStyle div.change-language select.form-control {
+  margin: auto;
+  margin-left: 0;
+  padding: 0.1rem 0.24rem;
+  font-size: 0.28rem;
+  width: 3rem;
+  height: 0.65rem;
+  line-height: 0.65rem;
+}
+.zwsoft-preferences .lineStyle div.show-language select.form-control option,
+.zwsoft-preferences .lineStyle div.change-language select.form-control option {
+  font-size: 0.24rem;
+}
+.zwsoft-preferences .lineStyle button {
+  height: 0.64rem;
+  position: static;
+  margin-right: 0;
+}
+#WarnTips {
+  font-size: 0.28rem;
+}
+.PrivacyBox,
+.ServiceAgreementBox {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0.2rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+  flex-direction: column;
+}
+.PrivacyBox .box,
+.ServiceAgreementBox .box {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 0.2rem;
+  background-color: #FFFFFF;
+  overflow: auto;
+  border-radius: 0.2rem;
+}
+.PrivacyBox .cbtn,
+.ServiceAgreementBox .cbtn {
+  width: 2rem;
+  height: 0.8rem;
+  background-color: #2c82ca;
+  color: #FFFFFF;
+  line-height: 0.8rem;
+  font-size: 0.28rem;
+  margin: auto;
+  flex-shrink: 0;
+  border-radius: 0.1rem;
+  text-align: center;
+}
+#SystemImage .box {
+  width: 6.4rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0.2rem #000;
+  padding: 0 0.2rem 0.2rem;
+}
+#SystemImage .box .content {
+  width: 100%;
+}
+#SystemImage .box .content .header {
+  width: 100%;
+  height: 1rem;
+}
+#SystemImage .box .content .header h1 {
+  font-size: 0.36rem;
+}
+#SystemImage .box .content .header a {
+  width: 0.56rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+}
+#SystemImage .box .content .ctent {
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  padding: 0.16rem 0;
+  overflow: auto;
+}
+#SystemImage .box .content .ctent .lists label {
+  width: 1.64rem;
+  height: 1.64rem;
+  margin: 0.18rem;
+}
+#SystemImage .box .content .ctent .lists label input + img {
+  padding: 0.48rem;
+}
+#SystemImage .box .content .ctent .scroll {
+  position: fixed;
+  top: 100%;
+  left: 100%;
+  display: none;
+}
+#SystemImage .box .content .footer {
+  width: 100%;
+  height: 0.8rem;
+  padding-top: 0.16rem;
+}
+#SystemImage .box .content .footer button {
+  width: 1.44rem;
+}
+.privacy-enUS .center {
+  overflow-x: auto;
+}
+.privacy-zhCN .center,
+.privacy-enUS .center {
+  min-width: 300px !important;
+  padding: 0 0.4rem !important;
+}
+.privacy-zhCN .center h3,
+.privacy-enUS .center h3 {
+  font-size: 0.4rem !important;
+}
+.privacy-zhCN .center p,
+.privacy-enUS .center p {
+  font-size: 0.24rem !important;
+}
+.privacy-zhCN .center .strong,
+.privacy-enUS .center .strong {
+  font-size: 0.3rem !important;
+}
+.privacy-zhCN .center table tr td,
+.privacy-enUS .center table tr td {
+  padding: 0.1rem 0.1rem !important;
+}
+.sdk-zhCN {
+  overflow-x: auto !important;
+}
